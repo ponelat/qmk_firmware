@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------| Hyper|           | Meh  |------+------+------+------+------+--------|
  * | Shft ( |   Z  |   X  |   C  |   V  |   B  |      |           |      |   N  |   M  |   ,  |   .  |  /   | ) Shft |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
- *   |  L1  |  '"  |AltShf| Left | Right|                                       |  Up  | Down |   [  |   ]  |+ L2  |
+ *   |  L1  |  '"  |AltShf| Left | Right|                                       |  Up  | Down |   [  |   ]  |= L2  |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,-------------.
  *                                        | App  | LGui |       | Alt  |Ctrl/Esc|
@@ -36,7 +36,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [BASE] = KEYMAP(  // layer 0 : default
         // left hand
         KC_EQL,           KC_1,         KC_2,   KC_3,   KC_4,   KC_5,   KC_LEFT,
-        ALT_T(KC_KC_GRV), KC_Q,         KC_W,   KC_E,   KC_R,   KC_T,   TG(SYMB),
+        ALT_T(KC_GRV), KC_Q,         KC_W,   KC_E,   KC_R,   KC_T,   TG(SYMB),
         CTL_T(KC_ESC),    KC_A,         KC_S,   KC_D,   KC_F,   KC_G,
         LSFTO,            KC_Z,         KC_X,   KC_C,   KC_V,   KC_B,   ALL_T(KC_NO),
         MO(SYMB),         KC_QUOT,      LALT(KC_LSFT),  KC_LEFT,KC_RGHT,
