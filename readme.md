@@ -1,3 +1,14 @@
+# JOSH README PART
+To flash:
+- Compile you're .hex file, should be over here... ./keyboard/ergodox_ez/keymaps/vim-like/ergodox_ez.hex
+- Run ./teensy.64bit
+- Load the hex file ( see above )
+- Press the "auto" button, so that it shines green
+- Then insert a paper clip into the Keyboard.
+- The teensy thing, should show it uploading. 
+- For good measure, after its done. Unplug and plug back in.
+
+# END JOSH PART
 # Quantum Mechanical Keyboard Firmware
 
 [![Build Status](https://travis-ci.org/jackhumbert/qmk_firmware.svg?branch=master)](https://travis-ci.org/jackhumbert/qmk_firmware)
